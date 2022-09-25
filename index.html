@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Treasure Hunt Game!</title>
+            <link rel="icon" type="image/x-icon" href="https://upload.wikimedia.org/wikipedia/commons/f/f7/Pumpkin.jpg">
+    <div class="text">
+    </div>
+    <link rel="stylesheet" href="treasurehunt.css">
+  </head>
+  <body>
+    <div class="top">
+      <h1>SPOOKY treasure Hunt game!</h1>
+    </div>
+    <p>Trick or treat! Find the treat, avoid the trick in a spooky themed treasure hunt game!</p>
+    <ul>
+      <li>Find the treat!</li>
+      <li>Click the mystery boxes to search!</li>
+      <li>If you find the treat, you win!</li>
+      <li>If you find the trick, you lose!</li>
+      <li>Want to try again? Reset at bottom of game!</li>
+    </ul>
+    <div id="gameboard">
+    <table border=1 class="tablesize">
+      <tr>
+        <td id=0 onClick="treasure(0)">?</td>
+        <td id=1 onClick="treasure(1)">?</td>
+        <td id=2 onClick="treasure(2)">?</td>
+      </tr>
+      <tr>
+        <td id=3 onClick="treasure(3)">?</td>
+        <td id=4 onClick="treasure(4)">?</td>
+        <td id=5 onClick="treasure(5)">?</td>
+      </tr>
+      <tr>
+        <td id=6 onClick="treasure(6)">?</td>
+        <td id=7 onClick="treasure(7)">?</td>
+        <td id=8 onClick="treasure(8)">?</td>
+      </tr>
+      <tr>
+        <td id=9 onClick="treasure(9)">?</td>
+        <td id=10 onClick="treasure(10)">?</td>
+        <td id=11 onClick="treasure(11)">?</td>
+      </tr>
+    </table>
+  </div>
+  <p id="outcome"></p>
+    <div class="reset">
+<a href="#" class="btn" onclick="location.reload()">Try Again?</a>
+</div>
+    <footer>&copy LEARN Jumpstart project</footer>
+    <script src="treasurehunt.js"></script>
+  </body>
