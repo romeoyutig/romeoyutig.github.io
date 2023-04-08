@@ -24,7 +24,7 @@ export const NavBar = () => {
             </ul>
         </div>
         </nav>
-       
+
     )
 }
 
