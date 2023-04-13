@@ -1,7 +1,7 @@
 {
+  "homepage": "https://romeoyutig.github.io",
   "name": "romeoyutig.github.io",
   "version": "0.1.0",
-  "homepage": "https://romeoyutig.github.io",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
