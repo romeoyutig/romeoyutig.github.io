@@ -7,7 +7,7 @@
   --bold-font: 700;
   --bolder-font: 900;
   --bg-color: #0e0101af;
-  --primary-color: #b30707;
+  --primary-color: #8d0505;
   --secondary-color: #03375e;
   --primary-shadow: #8b8eaf;
   --secondary-shadow: #a17a69;
@@ -61,7 +61,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 1.5rem 3.5rem;
-  background-color: whitesmoke;
+  background-color: rgb(255, 249, 249);
   opacity: 0.9;
   box-shadow: 0 3px 5px rgba(46, 44, 44, 0.1);
 }
@@ -130,19 +130,29 @@ nav {
 
 .more-about {
   background-color: var(--bg-color);
-  padding: 1rem 6rem;
+  /* padding: 1rem 6rem; */
+  width: 25rem;
+  padding: 0.625rem;
+  border-radius: 6px;
+  box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+  gap: 2.5rem;
+  max-width: 68.75rem;
+  margin: auto;
 }
 
 .more-about h1 {
   margin-bottom: var(--bottom-margin);
   text-align: center;
   color: var(--primary-color);
+  margin-bottom: var(--bottom-margin);
 }
 
 .more-about p {
   line-height: var(--line-height);
-  padding: 0.4rem;
-  color: whitesmoke
+  /* padding: 0.4rem; */
+  color: whitesmoke;
+  line-height: var(--line-height);
+  padding: 0.3rem 0;
 }
 
 .skills {
@@ -154,6 +164,7 @@ nav {
 
 .skill-header {
   margin-bottom: 1rem;
+  color: var(--primary-color);
 }
 
 .skills-wrapper img {
@@ -174,7 +185,7 @@ nav {
 }
 
 .projects {
-  /* background-color: var(--bg-color); */
+  background-color: var(--bg-color);
   padding: 32px 0;
   margin-top: 2rem;
 }
@@ -195,8 +206,11 @@ nav {
   padding: 0.4rem;
 }
 
-.project-title {
+.projects-title {
   margin-bottom: var(--bottom-margin);
+  color: var(--primary-color);
+  text-align: center;
+
 }
 
 .project-details {
@@ -218,6 +232,7 @@ nav {
 .contact h2 {
   text-align: center;
   margin-bottom: var(--bottom-margin-2);
+  color: var(--primary-color);
 }
 
 .contact-form-container {
@@ -381,6 +396,10 @@ nav ul.show {
 
 .contact-form-container {
   max-width: 23.75rem;
+}
+
+.copy {
+  color:#8d0505
 }
 
 @media screen and (max-width: 420px) {
